@@ -144,6 +144,12 @@ ul li{
      margin: 0px -15px;
      padding: 100px 0px;
  }
- ul li{
-     flex-flow: column;
+ .list{
+    list-style-type: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    padding: 1rem;
+    display: grid;
  }
+ 
