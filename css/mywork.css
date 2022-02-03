@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+   position:relative;
+   height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font-size: "100%";
+    text-size-adjust: 100%;
+    font-family: 'Mulish', sans-serif;
+    color:#101010;
+    background-color: #f7f7f2; 
+}
+/* Header */
+ .nav-logo svg[data-v-2a417c6d]{
+    height:45px;
+    width:45px;
+}
+svg[data-v-2a417c6d] {
+    overflow: hidden;
+    vertical-align: middle;
+    transform: translate(10px, 53px);
+}
+.nav ul li a{
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-family: Muli,sans-serif;
+
+}
+.nav{
+    position:relative;
+    align-items: center;
+    text-decoration: none;
+    float: right;
+}
+a{
+    color:black;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+ul li{
+    list-style-type: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline;
+    float:right;
+    padding: 1rem;
+  }
+
+  /* Content */
+  .section-intro{
+      padding: 80px 0;
+  }
+  .project-container{
+      min-height: 100vh;
+      padding: 100px 0 0 0;
+  }
+   h3{
+       font-size: 40px;
+       line-height: 50px;
+       letter-spacing: -1.5px;
+   }
+   .project-list{
+       display: flex;
+       flex-flow: row wrap;
+       justify-content: flex-start;
+   }
+   
+   .project-list .project .project-link{
+       position: relative;
+       height:100%;
+       width:100%;
+       display: flex;
+       flex-flow: column;
+       text-decoration: none;
+       justify-content: space-between;
+
+   }
+   .project-img img{
+       width:100%;
+       height:100%;
+       object-fit:cover;
+       object-position: center;
+       position:relative;
+       top:0;
+       left:0;
+       height: 400px;
+   }
+
+   img{
+       max-width: 100%;
+       vertical-align: middle;
+       border-style: none;
+   }
+   .project-link h4{
+       margin-top: 0.5rem;
+       margin-bottom: 2rem;
+       color: #101010;
+   }
+   .project-link h6{
+       color:#000;
+       font-weight: 400;
+   }
+ /* Footer Section */
+
+ footer{
+     background-color: rgb(27, 64, 121);
+     color: rgb(247, 247, 242);
+     padding: 100px 0;
+     display: flex;
+     flex-flow: row;
+     justify-content: space-evenly;
+     align-content: center;
+     align-items: center;
+ }
+ svg[data-v-ada784aa]{
+     height:40px;
+     margin-bottom: 0;
+     overflow: hidden;
+     vertical-align: middle;
+ }
+ .contact-details{
+     padding: 100px 0;
+ }
+
+ .contact-details h4{
+        font-size: 1rem;
+ }
+ .contact-details a{
+     position:relative;
+     font-size: 1rem;
+     text-decoration: none;
+     letter-spacing: .18rem;
+ }
+ .row contact-details{
+     margin: 0px -15px;
+     padding: 100px 0px;
+ }
+ ul li{
+     flex-flow: column;
+ }
