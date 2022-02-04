@@ -128,7 +128,7 @@ ul li{
      vertical-align: middle;
  }
  .contact-details{
-     padding: 100px 0;
+     padding: 85px 0;
  }
 
  .contact-details h4{
@@ -151,5 +151,9 @@ ul li{
     padding: 0;
     padding: 1rem;
     display: grid;
+    padding-left: 0;
+ }
+ .effect h4{
+     padding: 0.5em;
  }
  

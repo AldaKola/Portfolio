@@ -20,6 +20,34 @@
         margin-top: -18rem;
         padding:0;
     }
+    .project-img{
+        padding: 1rem;
+    }
+    .img-caption{
+        text-align: center;
+    }
+    .col-md-10 h3{
+        text-align: center;
+    }
+    .contact-details{
+        text-align: center;
+    }
+    .contact-col{
+        padding-bottom: 2rem;
+    }
+    .effect h4{
+        padding-top: 1rem;
+    }
+    .info p{
+        text-align: center;
+    }
+    .contact-details{
+        padding: 48px 0;
+    }
+    .col-md-8 h6{
+        text-align: center;
+    
+    }
 }
 
 @media (min-width:425px) and (max-width: 767px){
@@ -32,6 +60,12 @@
         padding:2rem;
 
     }
+    .col-md-8 h6{
+        text-align: center;
+    }
+    .contact-details{
+        padding: 48px 0;
+    }
     #home .row{
         padding-top: 0;
         padding-left: 0.5rem;
@@ -42,6 +76,40 @@
     a img{
         
         padding:0;
+    }
+    .project-img{
+        padding: 1rem;
+    }
+    .img-caption{
+        text-align: center;
+    }
+    .col-md-10 h3{
+        text-align: center;
+    }
+    .contact-details{
+        text-align: center;
+    }
+    .contact-details{
+        text-align: center;
+    }
+    .contact-col{
+        padding-bottom: 2rem;
+    }
+    .effect h4{
+        padding-top: 1rem;
+    }
+    .effect a{
+        word-break:break-word;
+    }
+    .further-info{
+        text-align: center;
+    }
+    .col-md-8 h6{
+        text-align: center;
+        padding-left: 3rem;
+    }
+    .info p{
+        text-align: center;
     }
 
 }
@@ -66,6 +134,16 @@
         
         padding:0;
     }
+    .effect a{
+        word-break:break-word;
+    }
+    .contact-details{
+        text-align: center;
+    }
+    footer{
+        text-align: center;
+    }
+
 
 }
 @media (min-width:1200px){

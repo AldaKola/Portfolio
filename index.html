@@ -21,6 +21,8 @@
        <link href="css/style.css" rel="stylesheet">
        <!-- Responsive CSS -->
        <link rel="stylesheet" href="css/responsive.css">
+       <!-- AOS Library -->
+       <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     </head>
     <body>
         <!-- Home section -->
@@ -65,14 +67,14 @@
                <section id="home">
                     <div class="row" class="container">
                         <div class="col-md-2"></div>
-                        <div class="col-md-8" style="padding-top: 5rem;" >
+                        <div class="col-md-8" style="padding-top: 5rem;" data-aos="fade-up" data-aos-anchor-placement="center-center">
                             <h2><strong>Hi! I'm Keshia, a front-end developer based in the<br> West Midlands, UK.</strong></h2>
                             <h5>I craft high-quality, bespoke digital solutions for forward-thinking<br> brands, like yours.</h5>
                         </div>
                         <div class="col-md-2"></div>
                         <div class="row" style="padding-top: 10rem;">
                             <div class="col-md-2"></div>
-                            <div class="col-md-2" style="display:flex">
+                            <div class="col-md-2" style="display:flex" data-aos="fade-up">
                                 <a href="/work.html">
                                   <h5 style="padding-left: 6px;">
                                     <b>View Work</b>
@@ -105,5 +107,10 @@
    
    <!--Custom JS-->
    <script src="js/script.js"></script> 
+   <!-- AOS -->
+   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+   <script>
+    AOS.init();
+  </script>
     </body>
 </html>
