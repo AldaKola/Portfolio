@@ -48,6 +48,9 @@
         text-align: center;
     
     }
+    .further-info{
+        text-align: center;
+    }
 }
 
 @media (min-width:425px) and (max-width: 767px){
@@ -120,7 +123,7 @@
     }
         
     .col-md-8{
-        padding:2rem;
+        text-align: initial;
 
     }
     #home .row{
@@ -143,9 +146,18 @@
     footer{
         text-align: center;
     }
+    .col-md-10 h3{
+        text-align: initial;
+    }
+    .further-info{
+        text-align: inherit;
+    }
 
 
 }
 @media (min-width:1200px){
+    .further-info{
+        text-align: initial;
+    }
 
 }
