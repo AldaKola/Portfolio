@@ -51,6 +51,9 @@
     .further-info{
         text-align: center;
     }
+    .view{
+        padding-top:  0;
+    }
 }
 
 @media (min-width:425px) and (max-width: 767px){
