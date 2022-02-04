@@ -52,7 +52,35 @@
         text-align: center;
     }
     .view{
-        padding-top:  0;
+        padding-top:  12rem;
+    }
+    .about img{
+        height: 300px;
+        width: 300px;
+        padding:0.5em;
+    }
+    .job-skills .right{
+        padding-left: 0;
+    }
+    .about h3{
+        text-align: center;
+    }
+    .about h6{
+        font-size: 20px;
+        text-align: center;
+    }
+    .job-skills .col-md-6{
+        text-align: center;
+    }
+    .job-skills{
+        padding-top: 1em;
+        text-align: center;
+    }
+    div.about{
+        padding-top: 76px;
+    }
+    .button-v{
+        padding-left: 2em;
     }
 }
 
@@ -95,9 +123,6 @@
     .contact-details{
         text-align: center;
     }
-    .contact-details{
-        text-align: center;
-    }
     .contact-col{
         padding-bottom: 2rem;
     }
@@ -112,11 +137,12 @@
     }
     .col-md-8 h6{
         text-align: center;
-        padding-left: 3rem;
+        
     }
     .info p{
         text-align: center;
     }
+    
 
 }
 @media (min-width:768px) and (max-width: 1024px){
@@ -145,6 +171,7 @@
     }
     .contact-details{
         text-align: center;
+        padding: 30px 0;
     }
     footer{
         text-align: center;
@@ -154,6 +181,14 @@
     }
     .further-info{
         text-align: inherit;
+    }
+    .view{
+        padding-top:  10rem;
+    }
+    .about img{
+        height: 300px;
+        width: 300px;
+        padding:0.5em;
     }
 
 
