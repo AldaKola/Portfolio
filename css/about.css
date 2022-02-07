@@ -150,7 +150,7 @@ footer{
 }
 svg[data-v-ada784aa]{
     height:40px;
-    margin-bottom: 0;
+    margin-bottom: 0.5rem;
     overflow: hidden;
     vertical-align: middle;
 }
@@ -180,6 +180,4 @@ svg[data-v-ada784aa]{
    display: grid;
    padding-left: 0;
 }
-.effect h4{
-    padding: 0.5em;
-}
+
