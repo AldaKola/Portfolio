@@ -82,6 +82,9 @@
     .button-v{
         padding-left: 2em;
     }
+    input[type=submit] {
+        margin-left: 5em;
+      }
 }
 
 @media (min-width:425px) and (max-width: 767px){
@@ -142,6 +145,17 @@
     .info p{
         text-align: center;
     }
+    .about img{
+        height: 350px;
+        width: 350px;
+        padding:0.5em;
+    }
+    #about-header{
+        padding: 0 0;
+    }
+    .job-skills .right{
+        padding-left: 0;
+    }
     
 
 }
@@ -190,12 +204,18 @@
         width: 300px;
         padding:0.5em;
     }
+    form{
+        width: 27rem;
+    }
 
 
 }
 @media (min-width:1200px){
     .further-info{
         text-align: initial;
+    }
+    form{
+        width: 27rem;
     }
 
 }

@@ -32,6 +32,9 @@ svg[data-v-2a417c6d] {
     font-family: Muli,sans-serif;
 
 }
+.nav ul li a:hover{
+    color:rgba(59, 58, 58, 0.993);
+}
 .nav{
     position:relative;
     align-items: center;
