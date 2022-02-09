@@ -1,5 +1,18 @@
 /* extrasmall Devices(Landscape Phone & Portrait Tablets */
-@media (min-width:280px) and (max-width: 424px){
+@media (max-width: 320px){
+    ul li{
+        padding: 0.5rem;
+    }
+    input[type=submit] {
+        margin-left: 4.5em;
+        margin-top: 0.5em;
+ 
+    }
+    .content #agree1{
+        margin-left:30%;
+    }
+}
+@media (min-width:321px) and (max-width: 424px){
      #home h2{
         font-size: 32px;
         margin: 0 0 32px;
@@ -83,8 +96,12 @@
         padding-left: 2em;
     }
     input[type=submit] {
-        margin-left: 5em;
+        margin-left: 5.5em;
+        margin-top: 0.5em;
       }
+      .content #agree1{
+        margin-left:30%;
+    }
 }
 
 @media (min-width:425px) and (max-width: 767px){
@@ -156,7 +173,13 @@
     .job-skills .right{
         padding-left: 0;
     }
-    
+    input[type=submit] {
+        margin-left: 7.5em;
+        margin-top: 0.5em;
+      }
+      .content #agree1{
+        margin-left:35%;
+    }
 
 }
 @media (min-width:768px) and (max-width: 1024px){
@@ -207,7 +230,12 @@
     form{
         width: 27rem;
     }
-
+    .modal-content{
+        width: 40%;
+    }
+    .content #agree1{
+        margin-left:40%;
+    }
 
 }
 @media (min-width:1200px){
@@ -216,6 +244,9 @@
     }
     form{
         width: 27rem;
+    }
+    .modal-content{
+        width: 50%;
     }
 
 }

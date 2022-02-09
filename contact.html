@@ -65,49 +65,75 @@
                 <body>
                     <main>
                         <div class="container">
-                            <form action="index.html">
+                            <form name="validate-info" action="index.html" onsubmit="validation()">
                                 <label for="fname">First Name</label>
                                 <input type="text" id="fname" name="firstname" placeholder="Your name">
-
+                                
                                 <label for="lname">Last Name</label>
                                 <input type="text" id="lname" name="lastname" placeholder="Your last name">
-
+                                
                                 <label for="ename">Email</label>
-                                <input type="text" id="ename" name="email" placeholder="Your email">
+                                <input type="email" id="ename" name="email" placeholder="Your email">
+                                
                                 <label for="subject">Subject</label>
                                 <textarea id="subject" name="subject" placeholder="Write something" style="height:200px"></textarea>
 
-                                <form action="#" onsubmit="if(document.getElementById('agree').checked) { return true; } else { alert('Please indicate that you have read and agree to the Terms and Conditions and Privacy Policy'); return false; }">
-                                    <input type="checkbox" required name="checkbox" value="check" id="agree" /> I have read and agree to the Terms and Conditions and Privacy Policy <br>
-                                    <input type="submit" name="submit" value="Submit" />
+                                <form action="#" onsubmit="required()">
+                                    <div id="error_message"></div>
+                                    <input type="checkbox" required name="checkbox" value="check" id="agree"/> I have read and agree to the <a id="myBtn">Terms and Conditions & Privacy Policy</a> <br>
+                                    <input type="submit" name="submit" value="Submit" onclick="validation()">
                                 </form>
                                
                             </form>
-                            <!-- Trigger/Open The Modal -->
-                            <button id="myBtn">Open Modal</button>
 
                             <!-- The Modal -->
                             <div id="myModal" class="modal">
-
                             <!-- Modal content -->
                             <div class="modal-content">
-                                <span class="close">&times;</span>
-                                <p>Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
-
-                                    Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
-                                    
-                                    Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla.
-                                    
+                                
+                                <div class="content">
+                                    <span class="close">&times;</span>
+                                   <h3 style="text-align:center;padding-top: 1em;"><b>Privacy Policy</b></h3>
+                                <p style="font-size:20px; padding: 1rem"> 
                                     Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
-                                    
                                     Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
-                                    
                                     Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla.
-                                    
-                                    Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
-                                    <form action="#" onsubmit="if(document.getElementById('agree').checked) { return true; } else { alert('Please indicate that you have read and agree to the Terms and Conditions and Privacy Policy'); return false; }">
-                                        <input type="checkbox" required name="checkbox" value="check" id="agree" /> I have read and agree to the Terms and Conditions and Privacy Policy
+                                    Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+                                    Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
+                                <p style="font-size:20px; padding: 1rem">    
+                                    Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
+                                    Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla.
+                                    Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+                                    Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+                                    Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
+                                    Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla.
+                                    Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+                                    Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
+                                <p style="font-size:20px; padding: 1rem">
+                                    Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+                                    Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
+                                    Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla.
+                                    Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+                                    Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
+                                <p style="font-size:20px; padding: 1rem">     
+                                    Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+                                    Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
+                                    Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla.
+                                    Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+                                    Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
+                                <p style="font-size:20px; padding: 1rem">     
+                                    Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+                                    Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
+                                    Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla.
+                                    Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+                                    Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
+                                     <form>
+                                        <input type="checkbox" required name="checkbox" value="check" id="agree"/> <b>I have read and agree to the Terms & Conditions & Privacy Policy</b> <br>
                                     </form>
+                                    <button id="agree1" onclick="required()">Accept</button>
+                                </p> 
+                                 
+                                </div>
                                 </div>
                             
 
@@ -118,7 +144,6 @@
                     <!--JQuery-->
    
                     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
-                    <script src="js/jquery.w-slider.js"></script>
                     
                     <!--Bootstaps JS-->
                     <script src="js/bootstrap/bootstrap.js"></script>
