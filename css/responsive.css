@@ -1,5 +1,57 @@
 /* extrasmall Devices(Landscape Phone & Portrait Tablets */
 @media (max-width: 320px){
+    #about-header{
+        padding: 0 0;
+    }
+    .about img{
+        height: 250px;
+        width: 250px;
+    }
+    .job-skills .right{
+        padding-left: 0;
+    }
+    div .about{
+        padding-top: 60px;
+    }
+    .about h3{
+        text-align: center;
+    }
+    .about h6{
+        font-size: 20px;
+        text-align: center;
+    }
+    .job-skills .col-md-6{
+        text-align: center;
+    }
+    .job-skills{
+        padding-top: 1em;
+        text-align: center;
+    }
+    .contact-details{
+        text-align: center;
+    }
+    .contact-col{
+        padding-bottom: 2rem;
+    }
+    .effect h4{
+        padding-top: 1rem;
+    }
+    .info p{
+        text-align: center;
+    }
+    .contact-details{
+        padding: 48px 0;
+    }
+    .col-md-8 h6{
+        text-align: center;
+
+    }
+    .further-info{
+        text-align: center;
+    }
+    .view{
+        padding-top:  12rem;
+    }
     ul li{
         padding: 0.5rem;
     }
@@ -10,6 +62,14 @@
     }
     .content #agree1{
         margin-left:30%;
+        margin-top: 1.5em;
+    }
+    .modal-content{
+        background-color: rgb(245, 245, 245);
+        margin: 50% auto;
+    }
+    div.content{
+        border: 1px solid #313131;
     }
 }
 @media (min-width:321px) and (max-width: 424px){
@@ -67,6 +127,9 @@
     .view{
         padding-top:  12rem;
     }
+    #about-header{
+        padding: 0 0;
+    }
     .about img{
         height: 300px;
         width: 300px;
@@ -101,6 +164,14 @@
       }
       .content #agree1{
         margin-left:30%;
+        margin-top: 1.5em;
+    }
+    .modal-content{
+        background-color: rgb(245, 245, 245);
+        margin: 50% auto;
+    }
+    div.content{
+        border: 1px solid #313131;
     }
 }
 
@@ -230,9 +301,7 @@
     form{
         width: 27rem;
     }
-    .modal-content{
-        width: 40%;
-    }
+    
     .content #agree1{
         margin-left:40%;
     }
