@@ -82,6 +82,12 @@ else{
 }
 return true;
 }
+// for (var el of document.getElementByName('validate-info').querySelectorAll("[required]")) {
+//   if (!el.reportValidity()) {
+//     return;
+//   }
+// }
+
 
 // document.getElementById('submit').disabled = true;
 // function required(){
@@ -98,8 +104,8 @@ return true;
 
 
 function checking(){
-  if(document.getElementById('agree').checked = true ){
-    document.getElementById('agree').checked;
+  if(agree2.checked = true){
+    document.getElementById("agree").checked = true;
   }else {
     alert('Please indicate that you have read and agree to the Terms and Conditions and Privacy Policy'); 
     return false; 
